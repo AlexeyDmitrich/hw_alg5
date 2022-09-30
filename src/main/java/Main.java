@@ -1,6 +1,10 @@
 import java.util.function.Consumer;
 
 public class Main {
+    /**
+     * метод сделан исключительно для тестирования классов умножения и возведения в степень
+     * @param args в качестве тестовых я использовал только целые положительные числа и 0.
+     */
     public static void main(String[] args) {
         Multiplication test1 = new Multiplication(5,3);
         System.out.println(test1.getProduct());
