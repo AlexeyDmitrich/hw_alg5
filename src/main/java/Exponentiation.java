@@ -11,7 +11,7 @@ public class Exponentiation {
     /**
      * При вызове конструктора передаем
      * @param num возводимое число
-     * @param degree и степень для возведения
+     * @param degree и целую положительную степень для возведения
      */
     public Exponentiation(double num, double degree) {
         this.num = num;
