@@ -1,5 +1,3 @@
-import java.util.function.Consumer;
-
 public class Main {
     /**
      * метод сделан исключительно для тестирования классов умножения и возведения в степень
@@ -28,12 +26,17 @@ public class Main {
     //    double temp8 = test8.getExponent();
     //    System.out.println(temp8);
 
-        Bag bag = new Bag(10);
+        System.out.println("Класс Complicated, в консоли задаст Вам нужные вопросы и создаст нужную вещь.\n" +
+                "ВНИМАНИЕ! Методы взаимодействия с пользователем не защищены от некорректного ввода. \n" +
+                "Класс Bag: примет массив из созданных вещей, взвесит их, подготовит к упаковке, создаст рюкзак, аккуратно сложит туда те вещи, которые он считает оптимальными и напечатает результат. \n" +
+                "УДАЧИ!");
+        Bag bag = new Bag(50);
         Complicated kit = new Complicated();
         Item[] items = kit.mustComplete();
         bag.readyAllItem(items);
         bag.completeIn(bag.items);
-        bag.toString();
+        System.out.println("results:");
+        bag.print();
 
 
     }
