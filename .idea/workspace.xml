@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="540cc1f1-5bf1-41cf-b66e-8c663d54447c" name="Changes" comment="hw5alg v1.1.0.&#10;Работоспособная версия.&#10;Добавлен поиск меньшего множителя, весь код прокомментирован.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
