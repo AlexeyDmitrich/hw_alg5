@@ -9,14 +9,20 @@ public class Bag {
     double unitedUsefull; // общая полезность вещей в рюкзаке.
     double readyWeight;
     double readyUsefull;
+    ArrayList <Item> items;
+    ArrayList <Item> complete;
 
     public Bag(double volume) {
         this.volume = volume;
         this.freeSpace = volume;
+        items = new ArrayList<>();
+        complete = completeIn(items);
     }
 
-    ArrayList <Item> items = new ArrayList<>();
+
+    //ArrayList <Item> items = new ArrayList<>();
     // грубо говоря - весь комплект посчитаных вещей
+    //ArrayList <Item> complete = completeIn(items);
 
     /**
      * Метод должен сформировать список всех вещей, подготовленных к упаковке, расчитать их вес и полезность
@@ -52,5 +58,15 @@ public class Bag {
             return completeIn(items);
         }
         return bagComplete;
+    }
+
+
+    @Override
+    public String toString() {
+        String str1 = new String();
+        for (int i = 0; i < complete.size(); i++) {
+        str1.concat(complete.get(i).name);
+        }
+        return str1;
     }
 }
